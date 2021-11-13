@@ -8,3 +8,5 @@ const data = request.get(custom_URL, (error, response, body ) => {
         return console.dir(error);
     } console.dir(JSON.parse(body));
 })
+
+module.exports = data;
