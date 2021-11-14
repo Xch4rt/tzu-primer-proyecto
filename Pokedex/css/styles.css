@@ -1,0 +1,108 @@
+*,::before,::after{
+   
+       box-sizing: border-box;
+       padding: 0;
+       margin: 0;
+   }
+
+body{
+    background-color: #E0E0E0;
+}
+.container{
+    width: 90%;
+    margin:  auto;
+}
+.img-logo{
+    display: inline-block;
+    width: 338px;
+    height: 54px;
+}
+.search-poke{
+    display: inline-block;
+    height: 35px;
+    width: 259px;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+.icon-search{
+    display: inline-block;
+    height: 35px;
+    width: 18%;
+}
+input{
+    position: relative;
+    display: inline-block;
+    height: 34px;
+    width: 80%;
+    bottom: 10px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 22px;
+}
+.nav-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 20px 0;
+}
+
+/*styles cards*/
+
+
+.cards-poke{
+    display: grid;
+    /* Dividir las columnas en 4 */
+    grid-template-columns:repeat(4, 1fr) ;
+    /*Dar un espacio a las cards para que no esten pegados*/
+    place-content: center;
+    gap: 1rem;
+    width: 90%;
+    margin:  auto;
+   
+}
+img{
+    height: 160px;
+    width: 160px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EDEDED;
+    height: 259px;
+    border-radius: 8px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #74CB48;
+    border-radius: 8px;
+    width: 100%;
+    height: 90px;
+   
+}
+.name-pokemon{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+.num-poke{
+    position: relative;
+    left: 95px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    
+    color: #74CB48;
+}
+
+
+
