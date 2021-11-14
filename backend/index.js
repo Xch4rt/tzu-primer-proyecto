@@ -17,6 +17,8 @@ app.get('/', (req, res) => {
 app.use(cors());
 app.use(morgan('dev'));
 app.use(helmet());
+
+// JSON parser
 app.use(express.json());
 
 // Routes
